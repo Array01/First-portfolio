@@ -94,8 +94,9 @@ const tooltip = document.getElementById('copy-tooltip');
 
 if (discordBtn) {
     discordBtn.addEventListener('click', () => {
-        navigator.clipboard.writeText('YourTag#0000');
+        navigator.clipboard.writeText('alon3x_x');
         tooltip.style.visibility = 'visible';
         setTimeout(() => { tooltip.style.visibility = 'hidden'; }, 2000);
     });
+
 }
