@@ -26,7 +26,7 @@
             }
 
             // Wait 4 seconds before resetting
-            await new Promise(r => setTimeout(r, 4000));
+            await new Promise(r => setTimeout(r, 7500));
 
             // Reset for next loop
             target.textContent = '';
@@ -110,4 +110,5 @@
             tooltip.style.visibility = 'visible';
             setTimeout(() => { tooltip.style.visibility = 'hidden'; }, 2000);
         });
+
     }
